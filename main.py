@@ -37,8 +37,10 @@ if __name__ == "__main__":
     
     
     
-    x=input("Hi whats your name")
-print(x + " That's a cool name")
+    x=input("Hi whats your name ")
+b=input("whats your last name? ")
+    
+    print(x + b +  " That's a cool name")
 
 
 n=input("whats your favorite sport")
@@ -76,10 +78,10 @@ else:
 
 
 
-#this is where the random number generator but now im stuck
+#this is where the random number generator is and it took a long time
 
 
-answer=input(" Guess a number 1-10")
+answer=int(input(" Guess a number 1-10"))
 import random
 number=random.randint(1,10)
 while answer != number:
@@ -91,5 +93,4 @@ while answer != number:
   answer = int(input("Try again!"))
  
 print ("Congratulations!")
-
     
